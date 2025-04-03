@@ -1,0 +1,48 @@
+@media screen and (max-width:500px) {
+    .Title{
+      font-size: 3pc;
+    }
+    button{
+      font-size: 1pc;
+      padding: 0.4pc 0.6pc;
+    }
+    .Retangle2, .Retangle3{
+      width: 144px;
+      height: 144px;
+    }
+    .Containers{
+      width: 100%;
+      margin: 0;
+      justify-content: center;
+    }
+    .Retangle1, .Retangle4{
+      width: 180px;
+      height: 144px;
+    }
+    .container{
+      align-items: flex-end;
+      padding-bottom: 4pc;
+      height: 90vh;
+    }
+    section{
+      top: 4pc;
+    }
+  }
+  .switch #btn {
+    background-color: var(--colorFondo);
+    color: var(--colorLetras);
+    box-shadow: 0 4px 6px rgba(240, 210, 191, 0.5);
+  }
+  .switch #btn:hover {
+    background-color: var(--colorLetras);
+    color: var(--colorFondo);
+  }
+  .switch{
+    background-color: var(--colorLetras);
+    color: var(--colorFondo);
+    transition: all 0.3s ease;
+  }
+  .switch .section-conocenos{
+    background-color: var(--colorFondo);
+    color: var(--colorLetras);
+  }

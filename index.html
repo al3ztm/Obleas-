@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obleas Delights</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style-oblea.css">
+    <link rel="stylesheet" href="./style-login.css">
+    <link rel="icon" type="image/png" href="./img/galleta-icon.png">
+</head>
+<body>
+  <header id="header" style="display: none;">git init
+    <nav class="navbar">
+      <ul>
+        <!-- Al dar clic en "Inicio", se hace scroll a la parte superior de la vista de obleas -->
+        <li><a href="#" id="navInicio">Inicio</a></li>
+        <!-- Al dar clic en "Sobre nosotros", se hace scroll a la sección "Conócenos!" -->
+        <li><a href="#" id="navSobre">Sobre nosotros</a></li>
+        <li><a href="https://obleasjl.com/categoria-producto/obleas/" id="navComprar">Comprar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="vista-login" class="vista">
+    <form class="login">
+      <h2>Login</h2>
+      <input type="text" placeholder="Username" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+
+  <!-- Vista 2: Página principal (Obleas Delights) -->
+  <div id="vista-obleas" class="vista" style="display: none;">
+    <!-- Sección de Obleas (parte superior de la vista) -->
+    <div id="seccion-obleas" class="container">
+      <div class="Containers">
+        <div class="Retangle1"></div>
+        <div class="Retangle2"></div>
+        <div class="Retangle3"></div>
+        <div class="Retangle4" id="elemento"></div>
+      </div>
+      <section>
+        <button id="btn" onclick="changeTheme()">Change the theme</button>
+        <h1 class="Title">
+          Obleas <br />
+          Delights
+        </h1>
+      </section>
+    </div>
+
+    <!-- Sección "Conócenos!" ubicada debajo de la sección de obleas -->
+    <div id="section-conocenos" class="section-conocenos">
+      <h2>Conócenos!</h2>
+      <p>
+        Bienvenido a Obleas Delights, tu tienda en línea de confianza para disfrutar de las más exquisitas obleas artesanales. Somos un equipo apasionado por lo dulce, con el compromiso de llevar a tu mesa un pedacito de tradición y sabor único.
+      </p>
+      <h3>Únete a Nuestra Familia Dulce</h3>
+      <p>
+        Te invitamos a ser parte de nuestra comunidad y a descubrir el verdadero placer de saborear una oblea llena de historia, tradición y el toque especial de Obleas Delights. Síguenos en nuestras redes sociales y mantente al tanto de nuestras promociones y novedades.
+      </p>
+      <p>
+        ¡Gracias por confiar en nosotros y permitirnos endulzar tu vida!
+      </p>
+    </div>
+  </div>
+
+</body>
+<script src="./main.js"></script>
+</html>

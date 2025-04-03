@@ -1,0 +1,46 @@
+:root {
+    --color: #faeefa;
+    --color2: #e9ab57;
+    --color3: #3d1d03;
+    --colorFondo: #faeed6;
+    --colorLetras: rgb(234, 155, 87);
+  }
+
+  
+  .login {
+    background-color: var(--colorFondo);
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;              /* Aplicamos Flexbox al formulario */
+    flex-direction: column;     /* Columna para que los elementos se apilen verticalmente */
+    align-items: center;        /* Centra los elementos internos horizontalmente */
+    gap: 10px;                  /* Espacio uniforme entre los elementos */
+  }
+  
+  .login input,
+  .login button {
+    width: 15rem;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: var(--colorLetras) solid 2px;
+    outline: none;
+  }
+  
+  .login button {
+    background-color: var(--color2);
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  .login button:hover {
+    background-color: var(--colorLetras);
+    box-shadow: 0 4px 6px rgba(234,144,87,0.5);
+  }
+  
